@@ -14,7 +14,7 @@ export default function Header() {
           />
         </div>
         <div className="w-full md:w-1/2 md:pl-8">
-          <h1 className="text-6xl font-bold">Jatin Oomajee</h1>
+          <h1 className="text-6xl font-bold text-dark">Jatin Oomajee</h1>
           <p className="p-2 text-2xl text-cyan">I'm a Full Stack JS Developer</p>
           <p className="text-justify w-full md:w-3/4 p-2">
             As a skilled full-stack developer, I am dedicated to turning ideas
