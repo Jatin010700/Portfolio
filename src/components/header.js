@@ -22,14 +22,12 @@ export default function Header() {
             showcasing my expertise in React.js and web development.
           </p>
           <div className="flex items-center self-start mt-2">
-            <Link
-              to="Professional CV Resume.jpg"
+            <a href="assets/CV.jpg"
               target="_blank"
               className="flex items-center bg-dark text-white p-2.5 px-6 rounded-2xl text-lg font-bold border-transparent border-2 hover:border-dark hover:bg-white hover:text-dark transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-150"
-              download
             >
               Resume <LinkArrow className="w-6 ml-1" />
-            </Link>
+            </a>
           </div>
         </div>
       </div>

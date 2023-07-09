@@ -172,6 +172,9 @@ export const Projects = () => {
               type="Featured Project"
             />
           </div>
+          <div>
+        
+          </div>
         </div>
       </div>
     </>
