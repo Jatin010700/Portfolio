@@ -119,10 +119,10 @@ export const Projects = () => {
           <div className="col-span-6">
             <Project
               title="My Portfolio"
-              img="assets/portfolio.png"
+              img="assets/Portfolio.png"
               summary="
               Coming Soon ..."
-              link="/"
+              link="https://portfolio-0hmq.onrender.com"
               github="https://github.com/Jatin010700"
               type="Featured Project"
             />
