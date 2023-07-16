@@ -112,7 +112,7 @@ export const Projects = () => {
               summary="
             The website feature a responsive and intuitive interface, allowing users to easily navigate through various search filters such as vehicle type, and price range."
               link="https://car-rental-front.onrender.com"
-              github="https://github.com/Jatin010700"
+              github="https://github.com/Jatin010700/Final_Project_Front"
               type="Featured Project"
             />
           </div>
@@ -123,18 +123,18 @@ export const Projects = () => {
               summary="
               Coming Soon ..."
               link="https://portfolio-0hmq.onrender.com"
-              github="https://github.com/Jatin010700"
+              github="https://github.com/Jatin010700/Portfolio"
               type="Featured Project"
             />
           </div>
           <div className="col-span-6">
             <Project
-              title="Coming Soon ..."
-              img="assets/soon.png"
+              title="Admin"
+              img="assets/Admin_Project.png"
               summary="
               Coming Soon ..."
-              link="/"
-              github="https://github.com/Jatin010700"
+              link="https://admin-car-rental.onrender.com"
+              github="https://github.com/Jatin010700/Admin"
               type="Featured Project"
             />
           </div>
