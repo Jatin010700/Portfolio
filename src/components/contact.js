@@ -1,6 +1,7 @@
 import React from "react";
 import { TransitionEffect } from "./transitionEffect";
 import Navbar from "./navbar";
+import { AnimatedText } from "./animateText";
 
 export const Contact = () => {
   return (
@@ -9,7 +10,7 @@ export const Contact = () => {
       <TransitionEffect />
       <div className="w-full px-28 flex flex-col items-center justify-center">
       <h1 className="font-bold text-4xl md:text-8xl mb-10 md:mb-32 w-full text-center text-dark">
-        Get in Touch !
+      <AnimatedText text="Get in Touch!" className="" />
       </h1>
         <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-white p-8">
           <div className="absolute top-0 -right-2 -z-10 w-[102%] h-[105%] rounded-[1rem] bg-dark" />

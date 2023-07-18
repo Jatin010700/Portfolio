@@ -4,6 +4,7 @@ import { TransitionEffect } from "./transitionEffect";
 import { Skill } from "./skill";
 import { Experience } from "./experience";
 import { Education } from "./education";
+import { AnimatedText } from "./animateText";
 
 export const About = () => {
   return (
@@ -11,7 +12,9 @@ export const About = () => {
       <TransitionEffect />
       <Navbar />
       <div className="flex flex-col items-center justify-center">
-        <h1 className="text-4xl md:text-6xl font-bold mb-10 md:mb-16 text-dark">About Me!</h1>
+        <h1 className="text-4xl md:text-6xl font-bold mb-10 md:mb-16 text-dark">
+        <AnimatedText text="About Me!" className="!m-0" />
+          </h1>
         <div className="p-6 md:p-10 lg:p-16">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16">
             <div className="flex flex-col items-center justify-center md:items-start md:justify-start">

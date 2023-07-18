@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import React from "react";
 import { LinkArrow } from "./icon";
+import { AnimatedText } from "./animateText";
 
 export default function Header() {
   return (
@@ -14,7 +15,7 @@ export default function Header() {
           />
         </div>
         <div className="w-full md:w-1/2 md:pl-8">
-          <h1 className="text-6xl font-bold text-dark">Jatin Oomajee</h1>
+          <AnimatedText text="Jatin Oomajee" className="!text-6xl !m-0 !text-left" />
           <p className="p-2 text-2xl text-cyan">I'm a Full Stack JS Developer</p>
           <p className="text-justify w-full md:w-3/4 p-2">
             As a skilled full-stack developer, I am dedicated to turning ideas

@@ -4,6 +4,7 @@ import { TransitionEffect } from "./transitionEffect";
 import { Link } from "react-router-dom";
 import { GithubIcon } from "./icon";
 import { motion } from "framer-motion";
+import { AnimatedText } from "./animateText";
 
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
   return (
@@ -102,7 +103,9 @@ export const Projects = () => {
       <Navbar />
       <TransitionEffect />
       <div className="w-full px-4 md:px-28 flex flex-col items-center justify-center text-dark">
-      <h1 className="text-4xl md:text-6xl font-bold mb-10 md:mb-16 text-dark">My Projects!</h1>
+      <h1 className="text-4xl md:text-6xl font-bold mb-10 md:mb-16 text-dark">
+      <AnimatedText text="My Projects!" className="!m-0" />
+        </h1>
 
         <div className="grid grid-cols-12 gap-6 md:gap-24">
           <div className="col-span-12">
