@@ -132,7 +132,7 @@ export const Projects = () => {
           </div>
           <div className="col-span-6">
             <Project
-              title="Admin"
+              title="Mini Project"
               img="assets/Admin_Project.png"
               summary="
               Coming Soon ..."
@@ -144,11 +144,10 @@ export const Projects = () => {
 
           <div className="col-span-12">
             <FeaturedProject
-              title="Coming Soon ..."
-              img="assets/soon.png"
-              summary="
-              Coming Soon ..."
-              link="/"
+              title="Tech Shop"
+              img="assets/shop.png"
+              summary="A Simple E-Commerce 75% Complete"
+              link="https://shop-project-gz5k.vercel.app/"
               github="https://github.com/Jatin010700"
               type="Featured Project"
             />
