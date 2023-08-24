@@ -147,7 +147,7 @@ export const Projects = () => {
               title="Tech Shop"
               img="assets/shop.png"
               summary="A Simple E-Commerce 75% Complete"
-              link="https://shop-project-gz5k.vercel.app/"
+              link="https://tech-shop-1r5c8ke4p-jatin010700.vercel.app"
               github="https://github.com/Jatin010700"
               type="Featured Project"
             />
