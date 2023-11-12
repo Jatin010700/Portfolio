@@ -1,14 +1,15 @@
 import React from "react";
 import Navbar from "./navbar";
-import Header from "./header";
+
 import { TransitionEffect } from "./transitionEffect";
+import { Projects } from "./project";
 
 export const Home = () => {
   return (
     <>
       <TransitionEffect />
       <Navbar />
-      <Header />
+      <Projects/>
     </>
   );
 };

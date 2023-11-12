@@ -1,10 +1,14 @@
-import { Link } from "react-router-dom";
 import React from "react";
 import { LinkArrow } from "./icon";
 import { AnimatedText } from "./animateText";
+import Navbar from "./navbar";
+import { TransitionEffect } from "./transitionEffect";
 
 export default function Header() {
   return (
+    <>
+    <TransitionEffect/>
+    <Navbar/>
     <div className="w-full h-full inline-block z-0">
       <div className="flex flex-col md:flex-row items-center justify-between w-full p-4">
         <div className="w-full md:w-1/2 mb-6 md:mb-0">
@@ -25,13 +29,14 @@ export default function Header() {
           <div className="flex items-center self-start mt-2">
             <a href="assets/CV_PDF.pdf"
               target="_blank"
-              className="flex items-center bg-dark text-white p-2.5 px-6 rounded-2xl text-lg font-bold border-transparent border-2 hover:border-dark hover:bg-white hover:text-dark transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-150"
+              className="flex items-center bg-dark text-white p-2.5 px-6 rounded-2xl text-lg font-bold border-transparent border-2 hover:border-dark hover:bg-white hover:text-dark transition ease-in-out hover:scale-110 duration-150"
             >
-              Resume <LinkArrow className="w-6 ml-1" />
+              Resume <LinkArrow className="w-6 ml-1 text-cyan" />
             </a>
           </div>
         </div>
       </div>
     </div>
+    </>
   );
 }

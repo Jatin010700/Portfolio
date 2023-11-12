@@ -26,7 +26,7 @@ const CustomLink = ({ to, title, className = "", onClick }) => {
       {title}
 
       <span
-        className={`h-[2px] inline-block rounded-full bg-dark absolute left-0 -bottom-0.5 group-hover:w-full transition-[width] ease duration-400
+        className={`h-[2px] inline-block rounded-full bg-cyan absolute left-0 -bottom-0.5 group-hover:w-full transition-[width] ease duration-400
       ${isHovered ? "w-full" : "w-0"}`}
       >
         &nbsp;
@@ -45,9 +45,9 @@ export default function Navbar() {
   return (
     <div className="w-full px-4 py-8 md:px-32 flex flex-col md:flex-row items-center justify-between">
       <nav className="hidden md:flex md:items-center md:justify-center w-full md:w-auto mb-4 md:mb-0">
-        <CustomLink to="/" title="Home" className="mr-4 font-bold" />
-        <CustomLink to="/about" title="About" className="mx-4 font-bold" />
-        <CustomLink to="/project" title="Projects" className="mx-4 font-bold" />
+        <CustomLink to="/" title="Projects" className="mr-4 font-bold" />
+        <CustomLink to="/header" title="My Profile" className="mx-4 font-bold" />
+        <CustomLink to="/about" title="About me" className="mx-4 font-bold" />
         <CustomLink to="/contact" title="Contact" className="ml-4 font-bold" />
       </nav>
 
@@ -97,19 +97,19 @@ export default function Navbar() {
           >
             <CustomLink
               to="/"
-              title="Home"
+              title="Projects"
+              className="mb-4 font-bold"
+              onClick={toggleMenu}
+            />
+            <CustomLink
+              to="/header"
+              title="My Profile"
               className="mb-4 font-bold"
               onClick={toggleMenu}
             />
             <CustomLink
               to="/about"
               title="About"
-              className="mb-4 font-bold"
-              onClick={toggleMenu}
-            />
-            <CustomLink
-              to="/project"
-              title="Projects"
               className="mb-4 font-bold"
               onClick={toggleMenu}
             />
@@ -129,7 +129,7 @@ export default function Navbar() {
           target={"_blank"}
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
-          className="w-6 mr-3"
+          className="w-8 mr-3 rounded-full "
         >
           <GithubIcon />
         </motion.a>
@@ -138,7 +138,7 @@ export default function Navbar() {
           target={"_blank"}
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
-          className="w-6 mx-3"
+          className="w-8 mx-3 rounded-full"
         >
           <LinkedInIcon />
         </motion.a>

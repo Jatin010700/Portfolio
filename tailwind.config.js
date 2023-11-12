@@ -12,7 +12,8 @@ module.exports = {
         'white': '#FFFFFF',
         'B-yellow':'#febd00',
         'purple': '#ae1aff',
-        'cyan': '#00FFFF'
+        'cyan': '#FF3333',
+        'orange': '#FF8249',
       },
       animation: {
         'spin-slow' : 'spin 8s linear infinite',

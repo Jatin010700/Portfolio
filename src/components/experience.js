@@ -36,7 +36,7 @@ export const Experience = () => {
   return (
     <div className="my-64">
         <h1 className="font-bold text-4xl md:text-8xl mb-10 md:mb-32 w-full text-center">
-        <AnimatedText text="Education" className="" />
+        <AnimatedText text="Experience" className="" />
       </h1>
       <div ref={ref} className="w-[75%] rounded-full mx-auto relative">
         <motion.div

@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "./navbar";
 import { TransitionEffect } from "./transitionEffect";
 import { Link } from "react-router-dom";
 import { GithubIcon } from "./icon";
@@ -9,7 +8,7 @@ import { AnimatedText } from "./animateText";
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
   return (
     <div className="w-full flex flex-col md:flex-row items-center justify-between rounded-2xl border border-solid border-dark bg-white shadow-2xl p-10 relative rounded-br-2xl">
-      <div className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem] bg-dark rounded-br-3xl" />
+      <div className="absolute top-1 -right-3 -z-10 w-[100%] h-[102%] rounded-2xl bg-dark" />
 
       <Link
         to={link}
@@ -42,7 +41,7 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
           <Link
             to={link}
             target="_blank"
-            className="ml-4 rounded-lg bg-dark text-white p-2 px-6 text-lg font-semibold border-2 border-dark hover:bg-white hover:text-dark transition ease-in-out hover:-translate-y-1 hover:scale-105 duration-150"
+            className="ml-4 rounded-lg bg-dark text-white p-2 px-6 text-lg font-semibold border-2 border-dark hover:bg-white hover:text-dark transition ease-in-out hover:scale-105 duration-150"
           >
             Visit Project
           </Link>
@@ -54,8 +53,8 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
 
 const Project = ({ type, title, img, link, github }) => {
   return (
-    <div className="w-full flex flex-col md:flex-row items-center justify-center rounded-2xl border border-solid border-dark bg-white p-6 relative">
-      <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark rounded-br-3xl" />
+    <div className="w-full flex flex-col md:flex-row items-center justify-center rounded-2xl border border-solid border-dark bg-white p-10 relative">
+      <div className="absolute top-1 -right-3 -z-10 w-[101%] h-[102%] rounded-2xl bg-dark" />
 
       <Link
         to={link}
@@ -78,9 +77,9 @@ const Project = ({ type, title, img, link, github }) => {
           <Link
             to={link}
             target="_blank"
-            className="rounded-lg bg-dark text-white p-2 px-6 text-lg font-semibold border-2 border-dark hover:bg-white hover:text-dark transition ease-in-out hover:-translate-y-1 hover:scale-105 duration-150"
+            className="rounded-lg bg-dark text-white p-2 px-6 text-lg font-semibold border-2 border-dark hover:bg-white hover:text-dark transition ease-in-out hover:scale-105 duration-150"
           >
-            Visit
+            Visit Project
           </Link>
           <motion.div 
           whileHover={{ y: -2 }} 
@@ -100,7 +99,6 @@ const Project = ({ type, title, img, link, github }) => {
 export const Projects = () => {
   return (
     <>
-      <Navbar />
       <TransitionEffect />
       <div className="w-full px-4 md:px-28 flex flex-col items-center justify-center text-dark">
       <h1 className="text-4xl md:text-6xl font-bold mb-10 md:mb-16 text-dark">
@@ -146,7 +144,7 @@ export const Projects = () => {
             <FeaturedProject
               title="Tech Shop"
               img="assets/shop.png"
-              summary="A Simple E-Commerce 75% Complete"
+              summary="A Simple E-Commerce"
               link="https://tech-shop-1r5c8ke4p-jatin010700.vercel.app"
               github="https://github.com/Jatin010700"
               type="Featured Project"

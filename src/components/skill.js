@@ -31,15 +31,16 @@ export const Skill = () => {
           Web
         </motion.div>
 
-        <Skills name="CSS" x="-5vw" y="-10vw" />
-        <Skills name="HTML" x="-5vw" y="-5vw" />
+        <Skills name="CSS" x="-3vw" y="-10vw" />
+        <Skills name="HTML" x="-10vw" y="-5vw" />
         <Skills name="JavaScript" x="-20vw" y="-10vw" />
         <Skills name="Databases" x="30vw" y="-15vw" />
-        <Skills name="Tailwind CSS" x="15vw" y="-10vw" />
-        <Skills name="Node JS" x="-5vw" y="10vw" />
-        <Skills name="React" x="-20vw" y="5vw" />
-        <Skills name="Redux" x="-30vw" y="5vw" />
-        <Skills name="Next JS" x="20vw" y="5vw" />
+        <Skills name="PostgreSQL" x="10vw" y="-20vw" />
+        <Skills name="Tailwind.css" x="15vw" y="-10vw" />
+        <Skills name="Node.js" x="-5vw" y="10vw" />
+        <Skills name="React.js" x="-18vw" y="5vw" />
+        <Skills name="Redux" x="-35vw" y="5vw" />
+        <Skills name="Next.js" x="20vw" y="5vw" />
         <Skills name="BootStrap" x="30vw" y="-5vw" />
       </div>
     </>
